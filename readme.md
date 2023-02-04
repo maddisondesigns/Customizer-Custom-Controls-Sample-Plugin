@@ -26,7 +26,7 @@ The example code in /inc/customizer.php will:
 
 ## Further Reading ##
 
-If you'd like to learn more about Customizer development, you can check out the links to my Customizer Developer's Guide, below.
+If you'd like to learn more about Customizer development, you can check out the links to my Customizer Developer's Guide, below.  
 [The WordPress Customizer – A Developers Guide (Part 1)](https://maddisondesigns.com/2017/05/the-wordpress-customizer-a-developers-guide-part-1)  
 [The WordPress Customizer – A Developers Guide (Part 2)](https://maddisondesigns.com/2017/05/the-wordpress-customizer-a-developers-guide-part-2)
 
