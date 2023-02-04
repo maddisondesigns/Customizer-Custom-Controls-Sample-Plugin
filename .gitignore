@@ -1,0 +1,13 @@
+uploads/*
+upgrade/*
+languages/*
+cache/*
+wfcache/*
+wflogs/*
+wp-rocket-config/*
+updraft/*
+w3tc-config/*
+.DS_Store
+._*
+*.LCK
+error_log*
