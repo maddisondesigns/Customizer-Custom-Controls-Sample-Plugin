@@ -4,7 +4,7 @@
 **Author URI:** https://maddisondesigns.com  
 **License:** GNU General Public License v2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
-**Version:** 1.1.1
+**Version:** 1.1.0
 
 ## Description ##
 
@@ -16,7 +16,8 @@ The example code in /inc/customizer.php will:
 
 - Creates a new Panel in the Customizer called **Header & Navigation** which contains three sections (Social Icons, Contact & Search).  
 - Creates a new section called **Sample Custom Controls** which contains examples of all the custom controls I created.  
-- Creates a new section called **Default Controls** which contains examples of all the core controls that are included in WordPress.
+- Creates a new section called **Default Controls** which contains examples of all the core controls that are included in WordPress.  
+- Creates a new section called **WooCommerce Layout** with sample controls if the WooCommerce plugin is activated
 
 ## Installation ##
 
@@ -31,6 +32,9 @@ If you'd like to learn more about Customizer development, you can check out the 
 [The WordPress Customizer – A Developers Guide (Part 2)](https://maddisondesigns.com/2017/05/the-wordpress-customizer-a-developers-guide-part-2)
 
 ## Changelog ##
+
+= 1.1.0 =  
+- Updated plugin with latest version of Customizer code (1.2.1)
 
 = 1.0.0 =
 - Initial release.
