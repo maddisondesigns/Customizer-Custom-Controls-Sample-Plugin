@@ -5,7 +5,7 @@ Plugin URI: https://maddisondesigns.com
 Description: A simple plugin to show how to use my Customizer Custom Controls within a plugin. Read the readme.txt file in the plugin folder to find out what controls this sample plugin adds to the Customizer.
 Author: Anthony Hortin
 Author URI: https://maddisondesigns.com
-Version: 1.0
+Version: 1.1.0
 */
 
 /* ================================================
