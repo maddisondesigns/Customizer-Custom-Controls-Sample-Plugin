@@ -23,7 +23,7 @@ if ( ! function_exists( 'skyrocket_scripts_styles' ) ) {
 	function skyrocket_scripts_styles() {
 		// Register and enqueue our icon font
 		// We're using the awesome Font Awesome icon font. http://fortawesome.github.io/Font-Awesome
-		wp_register_style( 'fontawesome', trailingslashit( get_template_directory_uri() ) . 'css/fontawesome-all.min.css' , array(), '5.8.2', 'all' );
+		wp_register_style( 'fontawesome', plugin_dir_url( __FILE__ ) . 'css/fontawesome-all.min.css' , array(), '5.8.2', 'all' );
 		wp_enqueue_style( 'fontawesome' );
 	}
 }
@@ -37,7 +37,7 @@ add_action( 'customize_controls_print_styles', 'skyrocket_scripts_styles' );
  */
 if ( ! function_exists( 'skyrocket_customizer_preview_scripts' ) ) {
 	function skyrocket_customizer_preview_scripts() {
-		wp_enqueue_script( 'skyrocket-customizer-preview', trailingslashit( get_template_directory_uri() ) . 'js/customizer-preview.js', array( 'customize-preview', 'jquery' ) );
+		wp_enqueue_script( 'skyrocket-customizer-preview', plugin_dir_url( __FILE__ ) . 'js/customizer-preview.js', array( 'customize-preview', 'jquery' ) );
 	}
 }
 add_action( 'customize_preview_init', 'skyrocket_customizer_preview_scripts' );
@@ -194,25 +194,6 @@ if ( ! function_exists( 'skyrocket_get_social_media' ) ) {
 }
 
 /**
- * Append a search icon to the primary menu
- * This is a sample function to show how to append an icon to the menu based on the customizer search option
- * The search icon wont actually do anything
- */
-if ( ! function_exists( 'skyrocket_add_search_menu_item' ) ) {
-	function skyrocket_add_search_menu_item( $items, $args ) {
-		$defaults = skyrocket_generate_defaults();
-
-		if( get_theme_mod( 'search_menu_icon', $defaults['search_menu_icon'] ) ) {
-			if( $args->theme_location == 'primary' ) {
-				$items .= '<li class="menu-item menu-item-search"><a href="#" class="nav-search"><i class="fa fa-search"></i></a></li>';
-			}
-		}
-		return $items;
-	}
-}
-add_filter( 'wp_nav_menu_items', 'skyrocket_add_search_menu_item', 10, 2 );
-
-/**
  * Return a string containing the sample TinyMCE Control
  * This is a sample function to show how you can use the TinyMCE Control for footer credits in your Theme
  * Add the following three lines of code to your footer.php file to display the content of your sample TinyMCE Control
@@ -311,7 +292,6 @@ if ( ! function_exists( 'skyrocket_generate_defaults' ) ) {
 			'sample_alpha_color' => 'rgba(209,0,55,0.7)',
 			'sample_wpcolorpicker_alpha_color' => 'rgba(55,55,55,0.5)',
 			'sample_wpcolorpicker_alpha_color2' => 'rgba(33,33,33,0.8)',
-			'sample_two_color_gradient_color' => 'linear-gradient(to right bottom, #fdc830, #f37335)',
 			'sample_pill_checkbox' => 'tiger,elephant,hippo',
 			'sample_pill_checkbox2' => 'captainmarvel,msmarvel,squirrelgirl',
 			'sample_pill_checkbox3' => 'author,categories,comments',
