@@ -3,7 +3,7 @@ Contributors: ahortin
 Tags: svg, image
 Requires at least: 5.6
 Tested up to: 6.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,9 @@ The example code in /inc/customizer.php will:
 3. Go to the 'Appearance > Widgets' screen and insert the 'Simple Inline SVG' widget into one of your sidebars
 
 == Changelog ==
+
+= 1.1.1 =
+- Updated plugin with latest version of Customizer code (1.2.2)
 
 = 1.1.0 =
 - Updated plugin with latest version of Customizer code (1.2.1)
