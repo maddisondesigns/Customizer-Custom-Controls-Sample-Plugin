@@ -231,6 +231,8 @@ class skyrocket_initialise_customizer_settings {
 
 		// Add our Single Accordion setting and Custom Control to list the available Social Media icons
 		$socialIconsList = array(
+			'500px' => __( '<i class="fab fa-500px"></i>', 'skyrocket' ),
+			'Artstation' => __( '<i class="fab fa-artstation"></i>', 'skyrocket' ),
 			'Behance' => __( '<i class="fab fa-behance"></i>', 'skyrocket' ),
 			'Bitbucket' => __( '<i class="fab fa-bitbucket"></i>', 'skyrocket' ),
 			'CodePen' => __( '<i class="fab fa-codepen"></i>', 'skyrocket' ),
@@ -239,17 +241,19 @@ class skyrocket_initialise_customizer_settings {
 			'Dribbble' => __( '<i class="fab fa-dribbble"></i>', 'skyrocket' ),
 			'Etsy' => __( '<i class="fab fa-etsy"></i>', 'skyrocket' ),
 			'Facebook' => __( '<i class="fab fa-facebook-f"></i>', 'skyrocket' ),
+			'Figma' => __( '<i class="fab fa-figma"></i>', 'skyrocket' ),
 			'Flickr' => __( '<i class="fab fa-flickr"></i>', 'skyrocket' ),
 			'Foursquare' => __( '<i class="fab fa-foursquare"></i>', 'skyrocket' ),
 			'GitHub' => __( '<i class="fab fa-github"></i>', 'skyrocket' ),
-			'Google+' => __( '<i class="fab fa-google-plus-g"></i>', 'skyrocket' ),
 			'Instagram' => __( '<i class="fab fa-instagram"></i>', 'skyrocket' ),
 			'Kickstarter' => __( '<i class="fab fa-kickstarter-k"></i>', 'skyrocket' ),
 			'Last.fm' => __( '<i class="fab fa-lastfm"></i>', 'skyrocket' ),
 			'LinkedIn' => __( '<i class="fab fa-linkedin-in"></i>', 'skyrocket' ),
+			'Mastadon' => __( '<i class="fab fa-mastodon"></i>', 'skyrocket' ),
 			'Medium' => __( '<i class="fab fa-medium-m"></i>', 'skyrocket' ),
 			'Patreon' => __( '<i class="fab fa-patreon"></i>', 'skyrocket' ),
 			'Pinterest' => __( '<i class="fab fa-pinterest-p"></i>', 'skyrocket' ),
+			'Quora' => __( '<i class="fab fa-quora"></i>', 'skyrocket' ),
 			'Reddit' => __( '<i class="fab fa-reddit-alien"></i>', 'skyrocket' ),
 			'Slack' => __( '<i class="fab fa-slack-hash"></i>', 'skyrocket' ),
 			'SlideShare' => __( '<i class="fab fa-slideshare"></i>', 'skyrocket' ),
@@ -257,11 +261,17 @@ class skyrocket_initialise_customizer_settings {
 			'SoundCloud' => __( '<i class="fab fa-soundcloud"></i>', 'skyrocket' ),
 			'Spotify' => __( '<i class="fab fa-spotify"></i>', 'skyrocket' ),
 			'Stack Overflow' => __( '<i class="fab fa-stack-overflow"></i>', 'skyrocket' ),
+			'Steam' => __( '<i class="fab fa-steam"></i>', 'skyrocket' ),
+			'Telegram' => __( '<i class="fab fa-telegram"></i>', 'skyrocket' ),
+			'TikTok' => __( '<i class="fab fa-tiktok"></i>', 'skyrocket' ),
 			'Tumblr' => __( '<i class="fab fa-tumblr"></i>', 'skyrocket' ),
 			'Twitch' => __( '<i class="fab fa-twitch"></i>', 'skyrocket' ),
 			'Twitter' => __( '<i class="fab fa-twitter"></i>', 'skyrocket' ),
+			'Unity' => __( '<i class="fab fa-unity"></i>', 'skyrocket' ),
+			'Unsplash' => __( '<i class="fab fa-unsplash"></i>', 'skyrocket' ),
 			'Vimeo' => __( '<i class="fab fa-vimeo-v"></i>', 'skyrocket' ),
 			'Weibo' => __( '<i class="fab fa-weibo"></i>', 'skyrocket' ),
+			'WhatsApp' => __( '<i class="fab fa-whatsapp"></i>', 'skyrocket' ),
 			'YouTube' => __( '<i class="fab fa-youtube"></i>', 'skyrocket' ),
 		);
 		$wp_customize->add_setting( 'social_url_icons',
@@ -583,6 +593,8 @@ class skyrocket_initialise_customizer_settings {
 
 		// Test of Single Accordion Control
 		$sampleIconsList = array(
+			'500px' => __( '<i class="fab fa-500px"></i>', 'skyrocket' ),
+			'Artstation' => __( '<i class="fab fa-artstation"></i>', 'skyrocket' ),
 			'Behance' => __( '<i class="fab fa-behance"></i>', 'skyrocket' ),
 			'Bitbucket' => __( '<i class="fab fa-bitbucket"></i>', 'skyrocket' ),
 			'CodePen' => __( '<i class="fab fa-codepen"></i>', 'skyrocket' ),
@@ -591,17 +603,19 @@ class skyrocket_initialise_customizer_settings {
 			'Dribbble' => __( '<i class="fab fa-dribbble"></i>', 'skyrocket' ),
 			'Etsy' => __( '<i class="fab fa-etsy"></i>', 'skyrocket' ),
 			'Facebook' => __( '<i class="fab fa-facebook-f"></i>', 'skyrocket' ),
+			'Figma' => __( '<i class="fab fa-figma"></i>', 'skyrocket' ),
 			'Flickr' => __( '<i class="fab fa-flickr"></i>', 'skyrocket' ),
 			'Foursquare' => __( '<i class="fab fa-foursquare"></i>', 'skyrocket' ),
 			'GitHub' => __( '<i class="fab fa-github"></i>', 'skyrocket' ),
-			'Google+' => __( '<i class="fab fa-google-plus-g"></i>', 'skyrocket' ),
 			'Instagram' => __( '<i class="fab fa-instagram"></i>', 'skyrocket' ),
 			'Kickstarter' => __( '<i class="fab fa-kickstarter-k"></i>', 'skyrocket' ),
 			'Last.fm' => __( '<i class="fab fa-lastfm"></i>', 'skyrocket' ),
 			'LinkedIn' => __( '<i class="fab fa-linkedin-in"></i>', 'skyrocket' ),
+			'Mastadon' => __( '<i class="fab fa-mastodon"></i>', 'skyrocket' ),
 			'Medium' => __( '<i class="fab fa-medium-m"></i>', 'skyrocket' ),
 			'Patreon' => __( '<i class="fab fa-patreon"></i>', 'skyrocket' ),
 			'Pinterest' => __( '<i class="fab fa-pinterest-p"></i>', 'skyrocket' ),
+			'Quora' => __( '<i class="fab fa-quora"></i>', 'skyrocket' ),
 			'Reddit' => __( '<i class="fab fa-reddit-alien"></i>', 'skyrocket' ),
 			'Slack' => __( '<i class="fab fa-slack-hash"></i>', 'skyrocket' ),
 			'SlideShare' => __( '<i class="fab fa-slideshare"></i>', 'skyrocket' ),
@@ -609,11 +623,17 @@ class skyrocket_initialise_customizer_settings {
 			'SoundCloud' => __( '<i class="fab fa-soundcloud"></i>', 'skyrocket' ),
 			'Spotify' => __( '<i class="fab fa-spotify"></i>', 'skyrocket' ),
 			'Stack Overflow' => __( '<i class="fab fa-stack-overflow"></i>', 'skyrocket' ),
+			'Steam' => __( '<i class="fab fa-steam"></i>', 'skyrocket' ),
+			'Telegram' => __( '<i class="fab fa-telegram"></i>', 'skyrocket' ),
+			'TikTok' => __( '<i class="fab fa-tiktok"></i>', 'skyrocket' ),
 			'Tumblr' => __( '<i class="fab fa-tumblr"></i>', 'skyrocket' ),
 			'Twitch' => __( '<i class="fab fa-twitch"></i>', 'skyrocket' ),
 			'Twitter' => __( '<i class="fab fa-twitter"></i>', 'skyrocket' ),
+			'Unity' => __( '<i class="fab fa-unity"></i>', 'skyrocket' ),
+			'Unsplash' => __( '<i class="fab fa-unsplash"></i>', 'skyrocket' ),
 			'Vimeo' => __( '<i class="fab fa-vimeo-v"></i>', 'skyrocket' ),
 			'Weibo' => __( '<i class="fab fa-weibo"></i>', 'skyrocket' ),
+			'WhatsApp' => __( '<i class="fab fa-whatsapp"></i>', 'skyrocket' ),
 			'YouTube' => __( '<i class="fab fa-youtube"></i>', 'skyrocket' ),
 		);
 		$wp_customize->add_setting( 'sample_single_accordion',
@@ -628,6 +648,26 @@ class skyrocket_initialise_customizer_settings {
 				'label' => __( 'Single Accordion Control', 'skyrocket' ),
 				'description' => $sampleIconsList,
 				'section' => 'sample_custom_controls_section'
+			)
+		) );
+
+		// Test of Divider control
+		$wp_customize->add_setting( 'sample_divider_control2',
+			array(
+				'default' => $this->defaults['sample_divider_control2'],
+				'transport' => 'postMessage',
+				'sanitize_callback' => ''
+			)
+		);
+		$wp_customize->add_control( new Skyrocket_Divider_Custom_Control( $wp_customize, 'sample_divider_control2',
+			array(
+				'label' => '',
+				'description' => '',
+				'section' => 'sample_custom_controls_section',
+				'input_attrs' => array(
+					'width' => 'default',
+					'type' => 'dashed',
+				),
 			)
 		) );
 
@@ -711,6 +751,28 @@ class skyrocket_initialise_customizer_settings {
 						'rgba(99,78,150,.5)',
 						'rgba(190,120,120,.5)',
 					),
+				),
+			)
+		) );
+
+		// Test of Divider control
+		$wp_customize->add_setting( 'sample_divider_control3',
+			array(
+				'default' => $this->defaults['sample_divider_control3'],
+				'transport' => 'postMessage',
+				'sanitize_callback' => ''
+			)
+		);
+		$wp_customize->add_control( new Skyrocket_Divider_Custom_Control( $wp_customize, 'sample_divider_control3',
+			array(
+				'label' => '',
+				'description' => '',
+				'section' => 'sample_custom_controls_section',
+				'input_attrs' => array(
+					'width' => 'half',
+					'type' => 'double',
+					'margintop' => 30,
+					'marginbottom' => 50,
 				),
 			)
 		) );
@@ -813,6 +875,28 @@ class skyrocket_initialise_customizer_settings {
 				'label' => __( 'Simple Notice Control', 'skyrocket' ),
 				'description' => __( 'This Custom Control allows you to display a simple title and description to your users. You can even include <a href="http://google.com" target="_blank">basic html</a>.', 'skyrocket' ),
 				'section' => 'sample_custom_controls_section'
+			)
+		) );
+
+		// Test of Divider control
+		$wp_customize->add_setting( 'sample_divider_control',
+			array(
+				'default' => $this->defaults['sample_divider_control'],
+				'transport' => 'postMessage',
+				'sanitize_callback' => ''
+			)
+		);
+		$wp_customize->add_control( new Skyrocket_Divider_Custom_Control( $wp_customize, 'sample_divider_control',
+			array(
+				'label' => '',
+				'description' => '',
+				'section' => 'sample_custom_controls_section',
+				'input_attrs' => array(
+					'width' => 'full',
+					'type' => 'solid',
+					'margintop' => 20,
+					'marginbottom' => 30,
+				),
 			)
 		) );
 
