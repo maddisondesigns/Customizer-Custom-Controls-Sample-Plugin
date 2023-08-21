@@ -4,7 +4,7 @@
 **Author URI:** https://maddisondesigns.com  
 **License:** GNU General Public License v2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
-**Version:** 1.2.0
+**Version:** 1.2.1
 
 This is a sample plugin to show how to implement my Customizer Custom Controls (and the core default controls). My Customizer Controls can be found at [https://github.com/maddisondesigns/customizer-custom-controls](https://github.com/maddisondesigns/customizer-custom-controls).
 
@@ -31,8 +31,11 @@ If you'd like to learn more about Customizer development, you can check out the 
 
 ## Changelog ##
 
+= 1.2.1 =
+- Updated plugin with latest version of Customizer code (1.3.1)
+
 = 1.2.0 =
-- Updated theme with latest version of Customizer code (1.3.0) which includes new Divider Control
+- Updated plugin with latest version of Customizer code (1.3.0) which includes new Divider Control
 - Updated Font Awesome to v6.4.0
 - Added 500px, Artstation, Figma, Mastodon (works with mastodon.social & mastodon.art), Quora, Steam, Telegram, TikTok, Unity, Unsplash & WhatsApp social icons
 - Added skyrocket_social_icons_plurality filter to change the plurality of the social icons (e.g. Use it to change 'Follow me on...', to 'Follow CompanyName on...')
